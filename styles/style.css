@@ -125,7 +125,9 @@ body {
     }
     
     .cabecalho__menu {
-        justify-content: center;
+       display: flex;
+       justify-content: center;
+       
     }
     
     .apresentacao {
