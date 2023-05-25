@@ -118,15 +118,14 @@ body {
 @media (max-width: 1200px) {
     .cabecalho {
         padding: 10%;
-        text-align: center; 
-    }
-
-    .cabecalho__menu__link {
-        justify-content: center;
     }
     
-    .cabecalho__menu {
+    .cabecalho__menu__link{
         display: flex;
+        flex-direction: center;
+    }
+
+    .cabecalho__menu {
         justify-content: center;
     }
     
@@ -137,8 +136,9 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
-        text-align: center; 
     }
+
+    
 }
 
 
